@@ -44,3 +44,65 @@ Dark gray: hsl(0, 0%, 59%)
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 - Weights: 400, 700
  */
+
+.main-component {
+  max-width: 35rem;
+  margin: 10rem auto;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.pattern-bg {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile img {
+  border-radius: 10rem;
+  position: absolute;
+  top: 19rem;
+  border: 5px solid #fff;
+}
+.text-section {
+  margin-top: 7rem;
+  font-size: 1.8rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.name-text {
+  font-weight: 700;
+  text-align: center;
+}
+.age-text {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.city-text {
+  font-size: 1.6rem;
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+  margin: 0.7rem 0 2rem 0;
+}
+
+.followers,
+.followers-2 {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: 700;
+
+  margin-top: 3rem;
+
+  text-align: center;
+}
+
+.fllw02 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 3rem;
+}
