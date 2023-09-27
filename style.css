@@ -10,6 +10,11 @@ html {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  background-color: #1aa1ad;
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right top;
 }
 
 /* # Front-end Style Guide
